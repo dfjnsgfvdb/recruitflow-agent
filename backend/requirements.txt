@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pymysql
+pydantic
+pydantic-settings
+python-dotenv
+openai<2
+tenacity
+python-multipart
+pypdf
+pdfplumber==0.11.4

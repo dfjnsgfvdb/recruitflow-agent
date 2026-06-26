@@ -1,0 +1,49 @@
+class RecruitmentStage:
+    NEW = "NEW"
+    SCREENING = "SCREENING"
+    RESUME_PASSED = "RESUME_PASSED"
+    RESUME_REJECTED = "RESUME_REJECTED"
+    FIRST_INTERVIEW_PENDING = "FIRST_INTERVIEW_PENDING"
+    FIRST_INTERVIEW_PASSED = "FIRST_INTERVIEW_PASSED"
+    FIRST_INTERVIEW_REJECTED = "FIRST_INTERVIEW_REJECTED"
+    SECOND_INTERVIEW_PENDING = "SECOND_INTERVIEW_PENDING"
+    SECOND_INTERVIEW_PASSED = "SECOND_INTERVIEW_PASSED"
+    OFFER_PENDING = "OFFER_PENDING"
+    OFFER_SENT = "OFFER_SENT"
+    HIRED = "HIRED"
+    REJECTED = "REJECTED"
+
+
+class RiskLevel:
+    LOW = "LOW"
+    MEDIUM = "MEDIUM"
+    HIGH = "HIGH"
+
+
+class EventStatus:
+    SUCCESS = "SUCCESS"
+    FAILED = "FAILED"
+    NEED_CLARIFICATION = "NEED_CLARIFICATION"
+    NEED_CONFIRMATION = "NEED_CONFIRMATION"
+
+
+class PendingActionStatus:
+    PENDING = "PENDING"
+    APPROVED = "APPROVED"
+    REJECTED = "REJECTED"
+    EXECUTED = "EXECUTED"
+    FAILED = "FAILED"
+
+
+class ToolName:
+    CREATE_CANDIDATE = "create_candidate"
+    UPDATE_CANDIDATE_STAGE = "update_candidate_stage"
+    CREATE_INTERVIEW = "create_interview"
+    ADD_INTERVIEW_FEEDBACK = "add_interview_feedback"
+    REJECT_CANDIDATE = "reject_candidate"
+    SEND_OFFER = "send_offer"
+    QUERY_DASHBOARD = "query_dashboard"
+    SYNC_TO_TENCENT_DOC = "sync_to_tencent_doc"
+    SEND_WECOM_NOTICE = "send_wecom_notice"
+    ASK_CLARIFICATION = "ask_clarification"
+    MARK_HIRED = "mark_hired"
