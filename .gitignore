@@ -27,6 +27,7 @@ env/
 
 # Backend local config and runtime files
 backend/.env
+backend/.env.example
 backend/.venv/
 backend/uploads/*
 !backend/uploads/resumes/
